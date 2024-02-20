@@ -1,6 +1,6 @@
 # PROGRAMACION II
 Segundo curso de programación enfocado en lenguaje C.
-_Ciclo 2024-II_ 
+- _Ciclo 2024-II_ 
 
 # TEMARIO
 
