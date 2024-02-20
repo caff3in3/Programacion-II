@@ -4,7 +4,6 @@ _Ciclo 2024-II_
 
 # TEMARIO
 
-
  * Tema 1: Tipos de datos derivados 
  * Tema 2: Apuntadores y memoria dinámica 
  - Tema 3: Manejo de archivos con C 
