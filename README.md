@@ -1,7 +1,8 @@
 # Programacion II
 _Ciclo 2024-II_ 
 
-## Índice Temático 
+# Indice Tematico 
+
 Unidad |         Tema 
   1    | Tipos de datos derivados 
   2    | Apuntadores y memoria dinámica 
@@ -10,6 +11,6 @@ Unidad |         Tema
   5    | Graficación básica con C 
   6    | Introducción a la programación orientada a objetos 
 
-##Programa de asignatura completo
+# Programa de asignatura completo
 _https://www.acatlan.unam.mx/files/PlanesDeEstudio/MAC/2/Programacion_II.pdf_
 
