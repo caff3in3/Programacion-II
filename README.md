@@ -3,8 +3,8 @@ _Ciclo 2024-II_
 
 # Indice Tematico 
 
--Unidad |         Tema 
- - 1    | Tipos de datos derivados 
+
+ * Tema 1.-    | Tipos de datos derivados 
  - 2    | Apuntadores y memoria dinámica 
  - 3    | Manejo de archivos con C 
  - 4    | Manipulación de bits 
