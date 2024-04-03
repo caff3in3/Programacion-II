@@ -1,37 +1,28 @@
 //
 //  main.c
-//  lista_Ordenada
+//  const_??
 //
 //  Created by CEDAM27 on 03/04/24.
 //
-typedef struct entrada{
-    int valor;
-    struct entrada*siguiente;
-} Entrada;
 
 #include <stdio.h>
+
+void intercambio(int *const pint, int *const pint2);
+
 int main(int argc, const char * argv[]) {
-    Entrada n1,n2,n2_3,n3;
-    Entrada *listaApuntador = &n1;
-    int i;
+    int i1= -5, i2= 66, *p1 = &i1, *p2 = &i2;
     
-    n1.valor = 100;
-    n2.valor = 200;
-    n3.valor = 300;
+    printf("i1 = %d, i2 = %d \n", i1, i2);
     
-    //Vinculacion de variables struct
-    n1.siguiente = &n2;
-    n2.siguiente = &n3;
-    n3.siguiente = (Entrada *)0;
+    intercambio(p1, p2);
     
-    //Recorre toda la lista
-    while(listaApuntador != (Entrada *) 0){
-        printf("%d\n", listaApuntador->valor);
-        listaApuntador = listaApuntador->siguiente;
-    }
-   
-    
-    
+    printf("i1 = %d, i2 = %d \n", i1, i2);
     
     return 0;
+}
+void intercambio(int *const pint, int *const pint2){
+    int temp;
+    temp = *pint;
+    *pint = *pint2;
+    *pint2 = temp;
 }
