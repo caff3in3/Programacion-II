@@ -3,7 +3,7 @@
 
 int main(int argc, const char * argv[]) {
     
-    int *pe1, *pe2, *peSum;
+    int *pe1, *pe2;
     int tam1, tam2, tamSum;
     int f;
     
