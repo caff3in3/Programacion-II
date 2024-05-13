@@ -1,0 +1,27 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, const char * argv[]) {
+    
+    int num;
+    FILE *fptr;
+    
+    fptr =
+    fopen("/Users/cedam19/Desktop/holaMundo.txt", "w");
+    
+    //Manejo de execpciones
+    if(fptr == NULL) {
+        printf("Error!\n");
+        exit(1);
+    }
+    
+    printf("Ingrese un numero: ");
+    scanf("%d", &num);
+    
+    fprintf(fptr, "%d", num);
+    fclose(fptr);
+    
+return 0;
+    
+}
