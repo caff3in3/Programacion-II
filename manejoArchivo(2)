@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, const char * argv[]){
+    
+    int num;
+    FILE *fptr;
+    
+       if ((fptr =
+            fopen("/Users/cedam19/Desktop/holaMundo.txt", "r")) == NULL){
+        printf("Error!");
+        exit(1);
+    }
+    
+    while (fscanf(fptr, "%d", &num) == 1){
+        printf("Valor de n = %d \n", num);
+    }
+    
+    fclose(fptr);
+    
+    return 0;
+}
